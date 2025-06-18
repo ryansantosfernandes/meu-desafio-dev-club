@@ -1,0 +1,37 @@
+* {
+    margin-left: 10px;
+    padding: 0;
+    
+}
+
+
+
+
+.videogame {
+    width: 300px;
+    box-sizing: border-box;
+    gap: 10px;
+    display: inline-block;
+    line-height: 100px;
+    cursor: pointer;
+    
+    
+}
+
+#play5 {
+    transition: 0.5s;
+
+}
+
+#play5:hover {
+    transform: translateY(100px);
+}
+
+
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFFFF;
+    padding-right: 200px;
+}
