@@ -1,37 +1,45 @@
 * {
-    margin-left: 10px;
+    margin: 0;
     padding: 0;
+    
     
 }
 
+.wrapper {
+    background-image: url(https://t90131761160.p.clickup-attachments.com/t90131761160/66fc2f7f-d2de-42d1-989f-5e6cc302bce6/generated-image-4c4f11fd-d176-4fb7-9560-bc5035e6a805.png?view=open);
+    width: 100vw;
+    height: 100vh;
+}
 
 
 
 .videogame {
     width: 300px;
+    height: auto;
     box-sizing: border-box;
-    gap: 10px;
     display: inline-block;
     line-height: 100px;
-    cursor: pointer;
+    margin: 0 0 0 30px;
     
+
+}
+
+
+article {
+    display: inline-block;
+    text-align: center;
     
 }
 
-#play5 {
-    transition: 0.5s;
-
+#xbox_series_S {
+    margin-bottom: 15px;
 }
 
-#play5:hover {
-    transform: translateY(100px);
+#xbox_series_X {
+    margin-bottom: 35px;
+    padding-right: 10px;
 }
 
-
-
-.quadrado {
-    width: 100px;
-    height: 100px;
-    background-color: #FFFFFF;
-    padding-right: 200px;
+#switch2 {
+    margin-bottom: 25px;
 }
