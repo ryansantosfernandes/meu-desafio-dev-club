@@ -33,13 +33,18 @@ article {
 
 #xbox_series_S {
     margin-bottom: 15px;
+    margin-left: 0;
+    margin-right: 30px;
 }
 
-#xbox_series_X {
+#xbox_series_X { 
     margin-bottom: 35px;
-    padding-right: 10px;
+    margin-right: 0;
+    margin-left: 1px;
 }
 
 #switch2 {
-    margin-bottom: 25px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 10px;
 }
