@@ -12,6 +12,7 @@ video {
     height: 100vh;
     left: 0;
     object-fit: cover;
+    z-index: -1;
     
     
 }
