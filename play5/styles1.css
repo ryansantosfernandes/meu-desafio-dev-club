@@ -22,7 +22,7 @@ h1{
     z-index: 2;
     color: white;
     font-size: 100px;
-    margin: 194px 0 0 40px;
+    margin: 175px 0 0 40px;
 }
 
 #paragrafo_section {
@@ -31,7 +31,7 @@ h1{
     color: white;
     font-size: 22px;
     width: 500px;
-    margin: 340px 0 0 45px;
+    margin: 310px 0 0 45px;
 }
 
 #paragrafo_aside {
@@ -39,7 +39,7 @@ h1{
     color: white;
     z-index: 2;
     font-size: 20px;
-    margin: 300px 0 0 900px;
+    margin: 292px 0 0 900px;
     width: 594px;
 }
 
@@ -59,6 +59,102 @@ video {
     width: 100%;
 }
 
+
+.game {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.link_nav {
+    margin: 10px;
+    width: 100px;
+}
+
+#button_S {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#button_S:hover {
+    color: rgb(66, 192, 66);
+    transition: 0.7s;
+}
+
+#button_S:active {
+    color: rgb(3, 83, 3);
+}
+
+
+#button_X {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#button_X:hover {
+    color: rgb(33, 83, 33);
+    transition: 0.7s;
+}
+
+#button_X:active {
+    color: rgb(13, 41, 13);
+}
+
+
+#button_Switch {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#button_Switch:hover {
+    color: rgb(212, 7, 7);
+    transition: 0.7s;
+}
+
+#button_Switch:active {
+    color: rgb(134, 0, 0);
+}
+
+#button_to_go_back {
+    position: absolute;
+    z-index: 3;
+    color: white;
+    background-color: transparent;
+    border: none;
+    margin: 12px 0px 0 10px;
+    cursor: pointer;
+}
+
+#button_to_go_back:hover {
+    background-color: rgb(197, 14, 14);
+    font-size: 20px;
+    transition: 1s;
+}
+
+
+#link_amazon {
+    position: absolute;
+    z-index: 4;
+    color: white;
+    background-color: transparent;
+    border: none;
+    margin: 520px 0 0 644px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#link_amazon:hover {
+    background-color: orange;
+    font-size: 20px;
+    transition: 1s;
+    
+}
 
 
 
