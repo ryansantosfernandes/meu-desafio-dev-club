@@ -43,16 +43,17 @@ article {
 
 
 .button {
+    width: 200px;
     padding: 12px;
-    border-radius: 30px;
+    border-radius: 16px;
     border: none;
     cursor: pointer;
 }
 
 
 #play5_button {
-    margin: 0 0 10px 113px;
-    background: blue;
+    margin: 0px 0 10px 67px;
+    background: #000000;
     color: #FFFFFF;
     
 }
@@ -75,13 +76,14 @@ article {
 
 
 #xboxS_button {
-    margin-left: 277px;
-    background: rgb(3, 212, 3);
+    margin-left: 130px;
+    background: rgb(0 0 0);
     color: #FFFFFF;
 }
 
 #xboxS_button:hover {
-    background: rgb(79, 224, 79);
+    background: rgb(66, 192, 66);
+    transition: 0.5s;
 }
 
 #xboxS_button:active {
@@ -98,13 +100,13 @@ article {
 
 
 #xboxX_button {
-    margin-left: 241px;
-    background: rgb(11, 95, 11);
-    color: #FFFFFF;
+    margin-left: 165px;
+    background: rgb(0 0 0);
+    color: #FFFFFF;;
 }
 
 #xboxX_button:hover {
-    background: rgb(77, 150, 77);
+    background: rgb(33, 83, 33);
     transition: 0.5s;
 }
 
@@ -121,14 +123,13 @@ article {
 
 
 #switch2_button {
-    margin-left: 200px;
-    background: rgb(206, 12, 12);
+    margin-left: 105px;
+    background: rgb(0 0 0);
     color: #FFFFFF;
-    font-weight: 500px;
 }
 
 #switch2_button:hover {
-    background: rgb(226, 70, 70);
+    background: rgb(212, 7, 7);
     transition: 0.5s;
 }
 
