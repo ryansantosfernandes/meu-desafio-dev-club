@@ -156,5 +156,36 @@ video {
     
 }
 
+@media screen and (max-width:900px) {
+    .wrapper {
+        position: fixed;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    video {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        
+    }
+
+    .link_nav {
+        display: none;
+    }
+
+    h1 {
+        text-align: center;
+        margin: 135px 276px;
+    }
+
+    #paragrafo_section {
+        text-align: center;
+        margin: 306px 121px;
+    }
+    
+}
+
 
 
