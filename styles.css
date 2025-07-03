@@ -100,7 +100,7 @@ article {
 
 
 #xboxX_button {
-    margin-left: 165px;
+    margin-left: 152px;
     background: rgb(0 0 0);
     color: #FFFFFF;;
 }
@@ -111,7 +111,7 @@ article {
 }
 
 #xboxX_button:active {
-    background: rgb(7, 56, 7) ;
+    background: rgb(13, 41, 13) ;
 }
 
 
