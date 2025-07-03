@@ -120,7 +120,7 @@ h1 {
     z-index: 2;
     position: fixed;
     color: white;
-    margin: 273px 0 0 45px;
+    margin: 260px 0 0 45px;
     font-size: 80px;
 }
 
@@ -128,7 +128,7 @@ h1 {
     z-index: 2;
     position: fixed;
     color: white;
-    margin:360px 0 0 45px;
+    margin:345px 0 0 45px;
     width: 510px;
     font-size: 22px;
 }
@@ -137,7 +137,7 @@ h2 {
     position: fixed;
     color: white;
     z-index: 2;
-    margin: 238px 0 0 861px;
+    margin: 223px 0 0 861px;
 }
 
 #lista_aside {
@@ -145,6 +145,6 @@ h2 {
     z-index: 2;
     color: white;
     font-size: 20px;
-    margin: 270px 0 0 880px;
+    margin: 253px 0 0 880px;
     width: 490px;
 }
