@@ -19,7 +19,7 @@ h1 {
 .wrapper {
     width: 100vw;
     height: 100vh;
-    position: fixed;
+    position: absolute;
     object-fit: cover;
     
 }
