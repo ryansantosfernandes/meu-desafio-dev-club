@@ -179,47 +179,50 @@ video {
         position: fixed;
     }
 
-    section {
-
-    }
-
     h1 {
-        font-size: 65px;
-        text-align: center;
-        margin: 80px 145px;
+        position: absolute;
+        margin: 65px 0 0 148px;
+        font-size: 42px;
     }
 
     #paragrafo_section {
-        font-size: 20px;
-        width: 377px;
+        position: absolute;
         text-align: center;
-        margin: 175px 1px 0 6px;
-    }
-
-    footer {
-        
+        font-size: 16px;
+        width: 82%;
+        top: 19%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
     }
 
     #link_amazon {
         position: fixed;
         text-align: center;
-        margin: 747px 0 0 153px;
+        margin: 703px 0 0 138px;
         padding: 0;
     }
 
 
-    aside {
-        
-    }
-
     h2 {
-        margin: 470px 0 0 50px;
+        position: absolute;
+        font-size: 23px;
+        width: 301px;
+        top: 48%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
     }
 
     #lista_aside {
-        margin: 510px 0 0 24px;
+        position: absolute;
         font-size: 16px;
-        width: 515px;
+        width: 80%;
+        top: 53%;
+        left: 51%;
+        transform: translateX(-50%);
+        margin: 0;
+        text-align: center;
     }
     
 }
