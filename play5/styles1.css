@@ -208,7 +208,7 @@ video {
         position: absolute;
         font-size: 23px;
         width: 301px;
-        top: 48%;
+        top: 52%;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
@@ -218,7 +218,7 @@ video {
         position: absolute;
         font-size: 16px;
         width: 80%;
-        top: 53%;
+        top: 58%;
         left: 51%;
         transform: translateX(-50%);
         margin: 0;
