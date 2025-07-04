@@ -175,14 +175,46 @@ video {
         display: none;
     }
 
+    section {
+
+    }
+
     h1 {
+        font-size: 65px;
         text-align: center;
-        margin: 135px 276px;
+        margin: 80px 145px;
     }
 
     #paragrafo_section {
+        font-size: 20px;
+        width: 377px;
         text-align: center;
-        margin: 306px 121px;
+        margin: 175px 1px 0 6px;
+    }
+
+    footer {
+        
+    }
+
+    #link_amazon {
+        text-align: center;
+        margin: 747px 0 0 153px;
+        padding: 0;
+    }
+
+
+    aside {
+        
+    }
+
+    h2 {
+        margin: 470px 0 0 50px;
+    }
+
+    #lista_aside {
+        margin: 510px 0 0 24px;
+        font-size: 16px;
+        width: 515px;
     }
     
 }
