@@ -175,6 +175,10 @@ video {
         display: none;
     }
 
+    #button_to_go_back {
+        position: fixed;
+    }
+
     section {
 
     }
@@ -197,6 +201,7 @@ video {
     }
 
     #link_amazon {
+        position: fixed;
         text-align: center;
         margin: 747px 0 0 153px;
         padding: 0;
