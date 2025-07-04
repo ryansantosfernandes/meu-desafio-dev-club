@@ -138,3 +138,73 @@ article {
 #switch2_button:active {
     background-color: rgb(134, 0, 0);
 }
+
+@media screen and (max-width:900px) {
+
+    h1 {
+        word-spacing: 5px;
+    }
+
+    .videogame {
+        position: absolute;
+        z-index: 1;
+    }
+
+    article {
+        display: block;
+    }
+
+    #play5_button {
+        position: absolute;
+        top: 545px;
+        left: 33%;
+        transform: translateX(-50%);
+        z-index: 2;
+    }
+
+    #xboxS_button {
+        position: absolute;
+        top: 915px;
+        left: 62px;
+        transform: translateX(-50%);
+        z-index: 2;
+    }
+
+    #xboxX_button {
+        position: absolute;
+        top: 1275px;
+        left: 40px;
+        transform: translateX(-50%);
+        z-index: 2;
+    }
+
+    #switch2_button {
+        position: absolute;
+        top: 1529px;
+        left: 88px;
+        transform: translateX(-50%);
+        z-index: 2;
+    }
+
+    #play5 {
+        left: 0;
+        margin: 0 0 0 55px;
+    }
+
+    #xbox_series_S {
+        margin: 445px 0 0 -140px;
+    }
+
+    #xbox_series_X {
+        margin: 870px 0 0 -155px;
+    }
+
+    #switch2 {
+        position: absolute;
+        margin: 1212px 0 0 -145px;
+    }
+
+    
+ 
+    
+}
