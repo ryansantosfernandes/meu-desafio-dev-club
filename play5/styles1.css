@@ -176,14 +176,20 @@ video {
     }
 
     #button_to_go_back {
-        position: fixed;
+        position: absolute;
     }
 
     h1 {
         position: absolute;
-        margin: 65px 0 0 148px;
-        font-size: 42px;
+        text-align: center;
+        font-size: 50px;
+        width: 82%;
+        top: 8%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
     }
+
 
     #paragrafo_section {
         position: absolute;
@@ -197,7 +203,7 @@ video {
     }
 
     #link_amazon {
-        position: fixed;
+        position: absolute;
         text-align: center;
         margin: 703px 0 0 138px;
         padding: 0;
@@ -206,9 +212,10 @@ video {
 
     h2 {
         position: absolute;
-        font-size: 23px;
-        width: 301px;
-        top: 52%;
+        text-align: center;
+        font-size: 25px;
+        width: 82%;
+        top: 50%;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
