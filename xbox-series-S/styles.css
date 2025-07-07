@@ -198,7 +198,7 @@ h2 {
         text-align: center;
         font-size: 25px;
         width: 95%;
-        top: 52%;
+        top: 55%;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
@@ -208,7 +208,7 @@ h2 {
         position: absolute;
         font-size: 19px;
         margin: 0;
-        top: 62%;
+        top: 70%;
         width: 91%;
         right: 50%;
         transform: translateX(55%);
@@ -220,7 +220,7 @@ h2 {
 
     #link_amazon {
         margin: 0;
-        top: 118%;
+        top: 127%;
         left: 33%;
     }
     
