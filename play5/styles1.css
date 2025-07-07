@@ -205,8 +205,12 @@ video {
     #link_amazon {
         position: absolute;
         text-align: center;
-        margin: 703px 0 0 138px;
-        padding: 0;
+        font-size: 25px;
+        width: 82%;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
     }
 
 
