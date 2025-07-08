@@ -179,9 +179,9 @@ h2 {
     h1 {
         position: absolute;
         text-align: center;
-        font-size: 50px;
+        font-size: 46px;
         width: 90%;
-        top: 8%;
+        top: 11%;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
@@ -191,9 +191,9 @@ h2 {
     #paragrafo_section {
         position: absolute;
         text-align: center;
-        font-size: 16px;
+        font-size: 14px;
         width: 82%;
-        top: 17%;
+        top: 21%;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
@@ -204,7 +204,7 @@ h2 {
         text-align: center;
         font-size: 25px;
         width: 82%;
-        top: 103%;
+        top: 107%;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
