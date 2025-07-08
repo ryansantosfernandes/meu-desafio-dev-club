@@ -157,7 +157,7 @@ h2 {
     .wrapper {
         position: relative;
         width: 100%;
-        min-height: 100vh; /* permite que cresça se tiver mais conteúdo */
+        min-height: 100vh;
         overflow-y: auto;
     }
 
@@ -165,58 +165,40 @@ h2 {
         height: 100%;
         width: 100%;
         object-fit: cover;
-        
+
     }
 
     .link_nav {
         display: none;
     }
 
-    #button_to_go_back {
-        position: absolute;
-    }
-
     h1 {
         position: absolute;
         text-align: center;
-        font-size: 46px;
-        width: 90%;
-        top: 11%;
-        left: 50%;
+        font-size: 50px;
+        width: 82%;
+        top: 8%;
+        left: 52%;
         transform: translateX(-50%);
         margin: 0;
     }
-
 
     #paragrafo_section {
         position: absolute;
         text-align: center;
-        font-size: 14px;
-        width: 82%;
-        top: 21%;
-        left: 50%;
-        transform: translateX(-50%);
-        margin: 0;
+        width: 100%;
+        font-size: 18px;
+        right: 50%;
+        transform: translateX(50%);
+        top: -35%;
     }
-
-    #link_amazon {
-        position: absolute;
-        text-align: center;
-        font-size: 25px;
-        width: 82%;
-        top: 97%;
-        left: 50%;
-        transform: translateX(-50%);
-        margin: 0;
-    }
-
 
     h2 {
         position: absolute;
         text-align: center;
         font-size: 25px;
         width: 95%;
-        top: 43%;
+        top: 52%;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
@@ -224,13 +206,22 @@ h2 {
 
     #lista_aside {
         position: absolute;
-        font-size: 16px;
-        width: 80%;
-        top: 52%;
-        left: 51%;
-        transform: translateX(-50%);
+        font-size: 19px;
         margin: 0;
-        text-align: center;
+        top: 62%;
+        width: 91%;
+        right: 50%;
+        transform: translateX(55%);
+    }
+
+    #button_to_go_back {
+    position: relative;                   
+    }
+
+    #link_amazon {
+        margin: 0;
+        top: 118%;
+        left: 33%;
     }
     
 }
