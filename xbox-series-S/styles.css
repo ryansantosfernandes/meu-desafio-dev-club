@@ -154,21 +154,7 @@ h2 {
 }
 
 @media screen and (max-width:900px) {
-    .wrapper {
-        position: relative;
-        width: 100%;
-        min-height: 100vh;
-        overflow-y: auto;
-    }
-
-    video {
-        position: fixed;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-
-    }
-
+    
     .link_nav {
         display: none;
     }
