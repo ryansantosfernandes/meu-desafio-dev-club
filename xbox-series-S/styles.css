@@ -155,7 +155,7 @@ h2 {
 
 @media screen and (max-width:900px) {
     .wrapper {
-        position: relative;
+        position: fixed;
         width: 100%;
         min-height: 100vh;
         overflow-y: auto;
