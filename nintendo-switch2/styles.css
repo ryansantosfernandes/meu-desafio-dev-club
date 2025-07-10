@@ -162,7 +162,7 @@ h2 {
     .wrapper {
         position: relative;
         width: 100%;
-        min-height: 660px;
+        min-height: 874px;
     }
 
     .link_nav {
@@ -201,7 +201,7 @@ h2 {
         text-align: center;
         font-size: 25px;
         width: 82%;
-        top: 111%;
+        top: 109%;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
