@@ -140,6 +140,9 @@ article {
 }
 
 @media screen and (max-width:900px) {
+    .wrapper {
+        min-height: 1579px;
+    }
 
     h1 {
         word-spacing: 5px;
