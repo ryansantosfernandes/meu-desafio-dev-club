@@ -200,7 +200,7 @@ h2 {
         text-align: center;
         font-size: 25px;
         width: 82%;
-        top: 105%;
+        top: 102%;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
@@ -212,7 +212,7 @@ h2 {
         text-align: center;
         font-size: 25px;
         width: 95%;
-        top: 47%;
+        top: 42%;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
@@ -222,7 +222,7 @@ h2 {
         position: absolute;
         font-size: 16px;
         width: 80%;
-        top: 57%;
+        top: 52%;
         left: 51%;
         transform: translateX(-50%);
         margin: 0;
