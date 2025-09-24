@@ -145,10 +145,12 @@ video {
 
 @media screen and (max-width:900px) {
     .wrapper {
-        position: relative;
-        width: 100%;
-        min-height: 100vh; /* permite que cresça se tiver mais conteúdo */
-        overflow-y: auto;
+        position: fixed;
+        width: 100vw;
+        height: 100dvh; /* melhor para dispositivos móveis */
+        object-fit: cover;
+        z-index: -1;
+        
     }
 
     video {
