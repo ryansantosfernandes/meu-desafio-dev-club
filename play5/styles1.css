@@ -16,14 +16,14 @@
 
 
 
-
 h1{
     position: fixed;
     z-index: 2;
     color: white;
-    font-size: 100px;
-    margin: 175px 0 0 40px;
+    font-size: 80px;
+    margin: 50px 0 0 480px;
 }
+
 
 #paragrafo_section {
     position: fixed;
@@ -31,39 +31,26 @@ h1{
     color: white;
     font-size: 22px;
     width: 500px;
-    margin: 310px 0 0 45px;
+    margin: 162px 0 0 455px;
+    text-align: center;
 }
 
-#lista_aside {
-    position: fixed;
-    color: white;
-    z-index: 2;
-    font-size: 20px;
-    margin: 292px 0 0 900px;
-    width: 594px;
-}
-
-
-h2 {
-    position: fixed;
-    color: white;
-    z-index: 2;
-    margin: 245px 0 0 874px;
-}
 
 
 video {
     z-index: -1;
-    position: fixed;
-    top: 0;
-    width: 100%;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
 }
 
 
 .game {
     text-align: center;
-    position: relative;
+    position: absolute;
     z-index: 2;
+    margin: 0 0 0 498px;
 }
 
 .link_nav {
@@ -144,7 +131,7 @@ video {
     color: white;
     background-color: transparent;
     border: none;
-    margin: 520px 0 0 644px;
+    margin: 520px 0 0 663px;
     cursor: pointer;
     font-size: 20px;
 }
@@ -208,34 +195,12 @@ video {
         text-align: center;
         font-size: 25px;
         width: 82%;
-        top: 103%;
+        top: 86%;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
     }
 
-
-    h2 {
-        position: absolute;
-        text-align: center;
-        font-size: 25px;
-        width: 95%;
-        top: 50%;
-        left: 50%;
-        transform: translateX(-50%);
-        margin: 0;
-    }
-
-    #lista_aside {
-        position: absolute;
-        font-size: 16px;
-        width: 80%;
-        top: 58%;
-        left: 51%;
-        transform: translateX(-50%);
-        margin: 0;
-        text-align: center;
-    }
     
 }
 
