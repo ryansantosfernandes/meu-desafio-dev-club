@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'oswald', sans-serif;
 }
 
 .wrapper {
@@ -22,8 +23,9 @@ video {
 
 .game {
     text-align: center;
-    position: relative;
+    position: absolute;
     z-index: 2;
+    margin: 0 0 0 500px;
 }
 
 .link_nav {
@@ -88,7 +90,7 @@ video {
     color: white;
     background-color: transparent;
     border: none;
-    margin: 520px 0 0 630px;
+    margin: 520px 0 0 640px;
     cursor: pointer;
     font-size: 20px;
 }
@@ -120,7 +122,7 @@ h1 {
     z-index: 2;
     position: fixed;
     color: white;
-    margin: 260px 0 0 45px;
+    margin: 60px 0 0 464px;
     font-size: 80px;
 }
 
@@ -128,26 +130,12 @@ h1 {
     z-index: 2;
     position: fixed;
     color: white;
-    margin:345px 0 0 45px;
+    margin:161px 0 0 433px;
     width: 510px;
     font-size: 22px;
+    text-align: center;
 }
 
-h2 {
-    position: fixed;
-    color: white;
-    z-index: 2;
-    margin: 223px 0 0 861px;
-}
-
-#lista_aside {
-    position: fixed;
-    z-index: 2;
-    color: white;
-    font-size: 20px;
-    margin: 253px 0 0 880px;
-    width: 490px;
-}
 
 @media screen and (max-width:900px) {
     video {
@@ -159,9 +147,8 @@ h2 {
     }
 
     .wrapper {
-        position: relative;
+        position: absolute;
         width: 100%;
-        min-height: 623px;
     }
 
     .link_nav {
@@ -175,9 +162,9 @@ h2 {
     h1 {
         position: absolute;
         text-align: center;
-        font-size: 46px;
+        font-size: 50px;
         width: 90%;
-        top: 6%;
+        top: 10%;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
@@ -189,7 +176,7 @@ h2 {
         text-align: center;
         font-size: 14px;
         width: 84%;
-        top: 16%;
+        top: 22%;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
@@ -200,33 +187,9 @@ h2 {
         text-align: center;
         font-size: 25px;
         width: 82%;
-        top: 102%;
+        top: 85%;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
     }
-
-
-    h2 {
-        position: absolute;
-        text-align: center;
-        font-size: 25px;
-        width: 95%;
-        top: 42%;
-        left: 50%;
-        transform: translateX(-50%);
-        margin: 0;
-    }
-
-    #lista_aside {
-        position: absolute;
-        font-size: 16px;
-        width: 80%;
-        top: 52%;
-        left: 51%;
-        transform: translateX(-50%);
-        margin: 0;
-        text-align: center;
-    }
-    
 }
