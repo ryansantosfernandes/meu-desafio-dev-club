@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "oswald", sans-serif;
 }
 
 .wrapper {
@@ -23,8 +24,9 @@ video {
 
 .game {
     text-align: center;
-    position: relative;
+    position: absolute;
     z-index: 2;
+    margin: 0 0 0 498px;
 }
 
 .link_nav {
@@ -90,7 +92,7 @@ video {
     color: white;
     background-color: transparent;
     border: none;
-    margin: 520px 0 0 630px;
+    margin: 520px 0 0 660px;
     cursor: pointer;
     font-size: 20px;
 }
@@ -122,36 +124,22 @@ video {
 
 h1 {
     z-index: 2;
-    position: fixed;
+    position: absolute;
     color: white;
-    margin: 252px 0 0 45px;
+    margin: 60px 0 0 470px;
     font-size: 80px;
 }
 
 #paragrafo_section {
     z-index: 2;
-    position: fixed;
+    position: absolute;
     color: white;
-    margin: 335px 0 0 45px;
+    margin: 161px 0 0 445px;
     width: 500px;
     font-size: 22px;
+    text-align: center;
 }
 
-h2 {
-    position: fixed;
-    color: white;
-    z-index: 2;
-    margin: 220px 0 0 861px;
-}
-
-#lista_aside {
-    position: fixed;
-    z-index: 2;
-    color: white;
-    font-size: 20px;
-    margin: 250px 0 0 880px;
-    width: 490px;
-}
 
 @media screen and (max-width:900px) {
     video {
@@ -193,7 +181,7 @@ h2 {
         text-align: center;
         font-size: 14px;
         width: 84%;
-        top: 16%;
+        top: 18%;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
@@ -204,33 +192,9 @@ h2 {
         text-align: center;
         font-size: 25px;
         width: 82%;
-        top: 94%;
+        top: 80%;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
-    }
-
-
-    h2 {
-        position: absolute;
-        text-align: center;
-        font-size: 25px;
-        width: 95%;
-        top: 39%;
-        left: 50%;
-        transform: translateX(-50%);
-        margin: 0;
-    }
-
-    #lista_aside {
-        position: absolute;
-        font-size: 16px;
-        width: 80%;
-        top: 48%;
-        left: 51%;
-        transform: translateX(-50%);
-        margin: 0;
-        text-align: center;
-    }
-    
+    }    
 }
