@@ -162,9 +162,9 @@ h1 {
     h1 {
         position: absolute;
         text-align: center;
-        font-size: 50px;
-        width: 90%;
-        top: 10%;
+        font-size: 46px;
+        width: 83%;
+        top: 6%;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
@@ -176,7 +176,7 @@ h1 {
         text-align: center;
         font-size: 14px;
         width: 84%;
-        top: 22%;
+        top: 20%;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
@@ -187,7 +187,7 @@ h1 {
         text-align: center;
         font-size: 25px;
         width: 82%;
-        top: 0%;
+        top: 90%;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
