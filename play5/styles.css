@@ -230,7 +230,7 @@ video {
         position: absolute;
         z-index: 4;
         color: white;
-        margin: 535px 0 0 70px;
+        margin: 535px 0 0 85px;
         display: inline-block;
         padding: 12px 24px;
         background-color: transparent;
@@ -249,6 +249,33 @@ video {
 
     .link-ps5-pro:hover {
         background: rgb(15, 15, 105);
+    }
+
+    article {
+        display: flex;
+        position: absolute;
+        margin: 398px 0 0 595px;
+        flex-direction: column;
+    }
+
+    select {
+        text-align: center;
+        margin: 0 0 0 82px;
+        border-radius: 4px;
+        border: 1px solid #BBB;
+        background: #FFF;
+        height: 30px;
+        width: 60px;
+        appearance: none;
+        font-weight: 700;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    #option {
+        color: white;
+        font-size: 20px;
+
     }
 
 
