@@ -254,7 +254,7 @@ video {
     article {
         display: flex;
         position: absolute;
-        margin: 398px 0 0 595px;
+        margin: 398px 0 0 80px;
         flex-direction: column;
     }
 
