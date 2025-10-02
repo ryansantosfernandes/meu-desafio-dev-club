@@ -86,21 +86,31 @@ video {
 }
 
 
-#link_amazon {
+.link-xbox {
     position: absolute;
     z-index: 4;
     color: white;
+    margin: 510px 0 0 595px;
+    display: inline-block;
+    padding: 12px 24px;
     background-color: transparent;
-    border: none;
-    margin: 520px 0 0 660px;
+    border: 2px solid white;
+    border-radius: 8px;
     cursor: pointer;
-    font-size: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 2s;
 }
 
-#link_amazon:hover {
-    background-color: orange;
-    font-size: 20px;
-    transition: 1s;
+.link-xbox-s:hover {
+    background-color:rgb(66, 192, 66);
+    transition: 2s;
+
+}
+
+.link-xbox-1t:hover {
+    background-color:rgb(37, 95, 37);
+    transition: 2s;
 
 }
 
@@ -140,6 +150,34 @@ h1 {
     text-align: center;
 }
 
+article {
+    display: flex;
+    position: absolute;
+    margin: 385px 0 0 595px;
+    flex-direction: column;
+}
+
+select {
+    text-align: center;
+    margin: 0 0 0 82px;
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    height: 30px;
+    width: 60px;
+    appearance: none;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#option {
+    color: white;
+    font-size: 20px;
+
+}
+
+
 
 @media screen and (max-width:900px) {
     video {
@@ -151,7 +189,7 @@ h1 {
     }
 
     .wrapper {
-        position: relative;
+        position: fixed;
         width: 100%;
         min-height: 623px;
     }
@@ -187,14 +225,46 @@ h1 {
         margin: 0;
     }
 
-    #link_amazon {
-        position: absolute;
-        text-align: center;
-        font-size: 25px;
-        width: 82%;
-        top: 80%;
-        left: 50%;
-        transform: translateX(-50%);
-        margin: 0;
+    .link-xbox {
+       position: absolute;
+        z-index: 4;
+        color: white;
+        margin: 535px 0 0 70px;
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 18px;
+        transition: 2s;
     }    
+
+    article {
+        display: flex;
+        position: absolute;
+        margin: 398px 0 0 80px;
+        flex-direction: column;
+    }
+
+    select {
+        text-align: center;
+        margin: 0 0 0 82px;
+        border-radius: 4px;
+        border: 1px solid #BBB;
+        background: #FFF;
+        height: 30px;
+        width: 60px;
+        appearance: none;
+        font-weight: 700;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    #option {
+        color: white;
+        font-size: 20px;
+
+    }
 }
