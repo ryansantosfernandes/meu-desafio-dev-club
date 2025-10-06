@@ -84,22 +84,26 @@ video {
     color: rgb(134, 0, 0);
 }
 
-#link_amazon {
+.link-xbox {
     position: absolute;
     z-index: 4;
     color: white;
+    margin: 510px 0 0 580px;
+    display: inline-block;
+    padding: 12px 24px;
     background-color: transparent;
-    border: none;
-    margin: 520px 0 0 640px;
+    border: 2px solid white;
+    border-radius: 8px;
     cursor: pointer;
-    font-size: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 2s;
 }
 
-#link_amazon:hover {
-    background-color: orange;
-    font-size: 20px;
+.link-xbox:hover {
+    background-color: rgb(34, 85, 27);
     transition: 1s;
-    
+
 }
 
 #button_to_go_back {
@@ -122,7 +126,7 @@ h1 {
     z-index: 2;
     position: fixed;
     color: white;
-    margin: 60px 0 0 464px;
+    margin: 60px 0 0 470px;
     font-size: 80px;
 }
 
@@ -130,25 +134,54 @@ h1 {
     z-index: 2;
     position: fixed;
     color: white;
-    margin:161px 0 0 433px;
+    margin: 161px 0 0 440px;
     width: 510px;
     font-size: 22px;
     text-align: center;
+}
+
+article {
+    display: flex;
+    position: absolute;
+    margin: 415px 0 0 580px;
+    flex-direction: column;
+    z-index: 5;
+}
+
+select {
+    text-align: center;
+    margin: 0 0 0 82px;
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    height: 30px;
+    width: 60px;
+    appearance: none;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#option {
+    color: white;
+    font-size: 20px;
+
 }
 
 
 @media screen and (max-width:900px) {
     video {
         position: fixed;
-        width: 100vw;
-        height: 100dvh; /* melhor para dispositivos móveis */
+        width: 100%;
+        height: 100%;
         object-fit: cover;
         z-index: -1;
     }
 
     .wrapper {
-        position: absolute;
+        position: fixed;
         width: 100%;
+        height: 100%;
     }
 
     .link_nav {
@@ -163,8 +196,8 @@ h1 {
         position: absolute;
         text-align: center;
         font-size: 46px;
-        width: 83%;
-        top: 6%;
+        width: 90%;
+        top: 8%;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
@@ -176,20 +209,52 @@ h1 {
         text-align: center;
         font-size: 14px;
         width: 84%;
-        top: 20%;
+        top: 18%;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
     }
 
-    #link_amazon {
+    .link-xbox {
+       position: absolute;
+        z-index: 4;
+        color: white;
+        margin: 535px 0 0 70px;
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 18px;
+        transition: 2s;
+    }    
+
+    article {
+        display: flex;
         position: absolute;
+        margin: 398px 0 0 80px;
+        flex-direction: column;
+    }
+
+    select {
         text-align: center;
-        font-size: 25px;
-        width: 82%;
-        top: 90%;
-        left: 50%;
-        transform: translateX(-50%);
-        margin: 0;
+        margin: 0 0 0 82px;
+        border-radius: 4px;
+        border: 1px solid #BBB;
+        background: #FFF;
+        height: 30px;
+        width: 60px;
+        appearance: none;
+        font-weight: 700;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    #option {
+        color: white;
+        font-size: 20px;
+
     }
 }
