@@ -101,22 +101,24 @@ video {
     transition: 1s;
 }
 
-#link_amazon {
-    position: absolute;
-    z-index: 4;
-    color: white;
-    background-color: transparent;
-    border: none;
-    margin: 520px 0 0 617px;
-    cursor: pointer;
-    font-size: 20px;
-}
+#link-ntd2 {
+        position: absolute;
+        z-index: 4;
+        color: white;
+        margin: 500px 0 0 620px;
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 18px;
+        transition: 2s;
+    }
 
-#link_amazon:hover {
-    background-color: orange;
-    font-size: 20px;
-    transition: 1s;
-    
+#link-ntd2:hover {
+    background-color: rgb(207, 12, 12);
 }
 
 h1 {
@@ -191,14 +193,19 @@ h2 {
         margin: 0;
     }
 
-    #link_amazon {
-        position: absolute;
-        text-align: center;
-        font-size: 25px;
-        width: 82%;
-        top: 90%;
-        left: 50%;
-        transform: translateX(-50%);
-        margin: 0;
+    #link-ntd2 {
+       position: absolute;
+        z-index: 4;
+        color: white;
+        margin: 535px 0 0 125px;
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 18px;
+        transition: 2s;
     }
 }
