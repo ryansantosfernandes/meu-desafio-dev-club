@@ -27,3 +27,6 @@ Com isso, consegui praticar layout, interatividade e organização do conteúdo,
   ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript)
   
 </ul>
+
+<img width="814" height="480" alt="image" src="https://github.com/user-attachments/assets/a138fdf0-c600-4983-b5e1-f1bab6e9cb72" />
+
